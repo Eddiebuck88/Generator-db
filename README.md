@@ -2,8 +2,8 @@
 ![Github license](https://img.shields.io/static/v1?label=License&message=Apache 2.0&color=brightgreen)
 ## Description 
 A node.js application that uses inquirer to prompt users via the CLI to genorate my ReadME.md
-## Screenshot
-![]()
+## Screenrecording
+![Recording](https://drive.google.com/file/d/1zv3FgbW579p_1h7HbsZTfUcY_5uYrVR8/view?usp=sharing)
   
 ## Table of Contents
     
@@ -41,5 +41,5 @@ Apache 2.0
   
 ## Questions
 Reach me at the links below with additional questions:
-- Github: https://github.com/undefined
+- Github: https://github.com/Eddiebuck88
 - Email: Edmond.Buck@wearetissue.com
