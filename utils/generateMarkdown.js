@@ -35,11 +35,61 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === 'None'){
+    return '';
+  } else {
+    return ` License: ${license}`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} 
+![Github license](https://img.shields.io/static/v1?label=License&message=${data.license}&color=brightgreen)
+## Description 
+${data.description}
+## Screenshot
+![]()
+  
+## Table of Contents
+    
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Features](#features)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
+  
+## Installation
+${data.installation}
+  
+  
+## Usage
+${data.usage}
+   
+  
+## Credits
+${data.credits}
+  
+  
+## License
+${data.license}
+## Features
+${data.features}
+## How to Contribute
+${data.contribute}  
+(https://www.contributor-covenant.org/)
+  
+## Tests
+${data.tests}
+  
+## Questions
+Reach me at the links below with additional questions:
+- Github: https://github.com/${data.github}
+- Email: ${data.email}
 `;
 }
 

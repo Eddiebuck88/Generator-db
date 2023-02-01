@@ -17,27 +17,27 @@ A node.js application that uses inquirer to prompt users via the CLI to genorate
 - [Questions](#questions)
   
 ## Installation
-input ```npm i``` to install the neccessary packages to run the application.
+Input npm init to create a package.json. Then input npm i inquirer to install the neccessary package to run the application.
   
   
 ## Usage
-input ```node index.js``` to initialize the application
+input node index.js to initialize the application
    
   
 ## Credits
-```N/A```
+undefined
   
   
 ## License
 Apache 2.0
 ## Features
-```N/A```
+undefined
 ## How to Contribute
-```N/A``` 
+undefined  
 (https://www.contributor-covenant.org/)
   
 ## Tests
-```N/A```
+undefined
   
 ## Questions
 Reach me at the links below with additional questions:
